@@ -12,3 +12,17 @@ export const todosAtomFamily = atomFamily({
     },
   })
 });
+
+
+// export const todosAtomFamily = atomFamily({
+//   key: 'todosAtomFamily',
+//   default: selectorFamily({
+//     key: "todoSelectorFamily",
+//     get: function(id){
+//         return async ({get}) => {
+//             const res = await axios.get(`http://localhost:3000/todo?id=${id}`);
+//             return res.data.todo;
+//         }
+//     },
+//   })
+// });(Initialized selector-family)
