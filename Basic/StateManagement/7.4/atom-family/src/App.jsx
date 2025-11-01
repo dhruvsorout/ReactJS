@@ -1,5 +1,6 @@
 import { RecoilRoot, useRecoilValue } from 'recoil';
 import { todosAtomFamily } from './atoms';
+import './app.css'
 
 function App() {
   return <RecoilRoot>
